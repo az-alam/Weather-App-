@@ -73,6 +73,9 @@ async function checkweather(city) {
             break;
         case 'light intensity shower rain':
             weather_img.src = "images/light rain.png";
+            break;
+        case 'smoke':
+            weather_img.src = "images/smokecloud.jpg";
         
     }
 }
